@@ -45,11 +45,11 @@ function Home() {
             //////Paragraph 1
 
             class_Paragraph_1="h6 fw-light lh-lg text-light"
-            content_Paragraph_1="What countries comprise Oceania?  The continent of Australia is the center for numerous surrounding islands of New Zealand, Tahiti, Fiji, Cook Islands, and Papua New Guinea to name a few… For over 40 years, Tahiti has been synonymous with paradise, but Fiji and the Cook Islands have expanded the definition.  If unusual cultural encounters pique your interest, consider Papua New Guinea.   Australia has the outback, fantastic beaches and the Great Barrier Reef, a 2000-mile aquatic museum.  Both Australia and New Zealand vie for the most unusual flora and fauna."
+            content_Paragraph_1="Ancient civilizations with their distinct vibe, Blade Runner cities, floating markets, jungle engulfed temples, marble mausoleums, pungent spices and elegant textiles.  (Link India and Asia trips here)"
             //////Paragraph 2
 
-            class_Paragraph_2="p fw-light lh-lg hidden"
-            content_Paragraph_2=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
+            class_Paragraph_2="h6 fw-light lh-lg text-light"
+            content_Paragraph_2="     My most recent adventure took me to Vietnam where I spent 2 fantastic weeks and still can&rsquo;t claim to know the country. (working on a story about the trip with pictures..)"
             //////Paragraph 3
 
             class_Paragraph_3="p fw-light lh-lg hidden"
@@ -140,7 +140,12 @@ function Home() {
         }
         <div className="spacer"></div>
         <div className="spacer"></div>
-        {<BorderPattern img_src="border-pattern.jpg" alt_src="" />}
+        {
+          <BorderPattern
+            img_src="border-pattern.jpg"
+            alt_src=""
+          />
+        }
       </div>
       <div className="bg-brown ">
         <div className="spacer"></div>
@@ -153,7 +158,7 @@ function Home() {
             class_col_2="col-7"
             class_img="img-fluid w-100 "
             image_1="Map_of_Asia.jpg"
-			image_1_title="this is a tooltip"
+            image_1_title="this is a tooltip"
             alt_1="Austral and Asia Map"
             label_1="Lorem Ipsom"
             class_header_1="h4 mt-0 mb-3"
@@ -257,7 +262,12 @@ function Home() {
         }
         <div className="spacer"></div>
         <div className="spacer"></div>
-        {<BorderPattern img_src="border-pattern.jpg" alt_src="" />}
+        {
+          <BorderPattern
+            img_src="border-pattern.jpg"
+            alt_src=""
+          />
+        }
       </div>
       <div className="bg-light ">
         <div className="spacer"></div>
@@ -367,7 +377,12 @@ function Home() {
           />
         }
       </div>
-      {<BorderPattern img_src="border-pattern.jpg" alt_src="" />}
+      {
+        <BorderPattern
+          img_src="border-pattern.jpg"
+          alt_src=""
+        />
+      }
     </>
   );
 }
