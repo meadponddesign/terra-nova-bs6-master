@@ -73,7 +73,7 @@ function Nav() {
                       </li>
                       <li className="nav-drop-menu-mobile-sub">
                         <a href="/botanicals">
-                          <h6> Botanicals</h6>
+                          <h6> Botanical World</h6>
                         </a>
                       </li>
                       <li className="nav-drop-menu-mobile-sub">
@@ -153,16 +153,16 @@ function Nav() {
                 <ul className="nav-drop-menu">
                   <li className="nav-drop-menu-item">
                     <a href="/botanicals">
-                      <p>Botanicals</p>
+                      <p>Botanical World</p>
                     </a>
                     <a href="/eco-adventures">
-                      <p> Eco Adventures</p>
+                      <p> EcoAdventures</p>
                     </a>
                     <a href="/endangered-culture">
                       <p> Endangered Cultures</p>
                     </a>
                     <a href="/food-and-drink">
-                      <p> Food & Drink</p>
+                      <p> Gastronomical Adventures</p>
                     </a>
 
                     <a href="/safari">
@@ -172,11 +172,7 @@ function Nav() {
                       <p> Small Ships</p>
                     </a>
                     <a href="/treks">
-                      <p> Treks</p>
-                    </a>
-
-                    <a href="/world-of-plants">
-                      <p> World of Plants</p>
+                      <p> Treks & Hikes</p>
                     </a>
                   </li>
                 </ul>
@@ -195,10 +191,6 @@ function Nav() {
                     <a href="/multi-generation">
                       <p> Family </p>
                     </a>
-                    <a href="/departure-group">
-                      <p> Departure Groups</p>
-                    </a>
-
                     <a href="/private-individual">
                       <p> Private Individuals</p>
                     </a>
@@ -213,7 +205,7 @@ function Nav() {
                 type="button"
                 className="nav-button me-3 pt-3"
               >
-                <p>Group Travel</p>{" "}
+                <p>Custom Group Trips</p>{" "}
                 <ul className="nav-drop-menu">
                   <li className="nav-drop-menu-item">
                     <a href="/">

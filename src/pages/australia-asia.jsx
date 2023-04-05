@@ -22,7 +22,12 @@ function Home() {
           text_background_color="rgba(160, 82, 19,.6)"
         />
       }
-      {<BorderPattern img_src="border-pattern.jpg" alt_src="" />}
+      {
+        <BorderPattern
+          img_src="border-pattern.jpg"
+          alt_src=""
+        />
+      }
       <div className="spacer"></div>
       <div className="bg-dark">
         {
@@ -114,30 +119,29 @@ function Home() {
             //////Title
 
             class_Title="h4 pt-0 text-light hidden"
-            content_Title="Professional Trip Designing for the Inquisitive, Independent & Intrepid" //////container
+            content_Title="Professional" //////container
             //////Paragraph container
 
             class_Container_Paragraph="row text-center mt-4 w-85 px-3 mx-auto "
             //////Paragraph 1
 
             class_Paragraph_1="p fw-light text-light hidden"
-            content_Paragraph_1="Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscing risus a sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu. Ut scelerisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante. Vivamus imperdiet nibh feugiat est."
+            content_Paragraph_1=""
             //////Paragraph 2
 
             class_Paragraph_2="p fw-light hidden"
-            content_Paragraph_2=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
+            content_Paragraph_2=""
             //////Paragraph 3
 
             class_Paragraph_3="p fw-light hidden"
-            content_Paragraph_3=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
+            content_Paragraph_3=""
           />
         }
-        <div className="spacer"></div>
 
         {
           <ImgBlockRows
             class_Container="container p-0"
-            class_row="row g-0 w-85 mx-auto  "
+            class_row="row g-0 w-75 mx-auto  "
             class_col_1="col"
             class_col_2="col"
             class_col_3="col"
@@ -172,6 +176,7 @@ function Home() {
             alt_6="image"
             label_6=""
           />
+          
         }
         {
           <Paragraph
@@ -181,29 +186,28 @@ function Home() {
             //////Title
 
             class_Title="h4 pt-0 text-light hidden"
-            content_Title="Professional Trip Designing for the Inquisitive, Independent & Intrepid" //////container
+            content_Title="Professional" //////container
             //////Paragraph container
 
             class_Container_Paragraph="row text-center mt-4 w-85 px-3 mx-auto "
             //////Paragraph 1
 
             class_Paragraph_1="p fw-light text-light hidden"
-            content_Paragraph_1="Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl."
+            content_Paragraph_1=""
             //////Paragraph 2
 
             class_Paragraph_2="p fw-light hidden"
-            content_Paragraph_2=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
+            content_Paragraph_2=""
             //////Paragraph 3
 
             class_Paragraph_3="p fw-light hidden"
-            content_Paragraph_3=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
+            content_Paragraph_3=""
           />
         }
-        <div className="spacer"></div>
         {
           <ImgBlockRows
             class_Container="container p-0"
-            class_row="row g-0 w-85 mx-auto "
+            class_row="row g-0 w-75 mx-auto "
             class_col_1="col"
             class_col_2="col"
             class_col_3="col"
@@ -254,22 +258,28 @@ function Home() {
             //////Paragraph 1
 
             class_Paragraph_1="p fw-light text-light hidden"
-            content_Paragraph_1="Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue. Integer eu magna sit amet metus fermentum posuere. Morbi sit amet nulla sed dolor elementum imperdiet. Quisque fermentum. Cum sociis natoque penatibus et magnis xdis parturient montes, nascetur ridiculus mus. Pellentesque adipiscing eros ut libero. Ut condimentum mi vel tellus. Suspendisse laoreet. Fusce ut est sed dolor gravida convallis. Morbi vitae ante. Vivamus ultrices luctus nunc. Suspendisse et dolor. Etiam dignissim. Proin malesuada adipiscing lacus. "
+            content_Paragraph_1=""
             //////Paragraph 2
 
             class_Paragraph_2="p fw-light lh-lg hidden"
-            content_Paragraph_2=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
+            content_Paragraph_2=""
             //////Paragraph 3
 
             class_Paragraph_3="p fw-light lh-lg hidden"
-            content_Paragraph_3=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
+            content_Paragraph_3=""
           />
         }
       </div>
       <div className="spacer"></div>
-      <div className="spacer"></div>
-      {<BorderPattern img_src="border-pattern.jpg" alt_src="" />}
+
+      {
+        <BorderPattern
+          img_src="border-pattern.jpg"
+          alt_src=""
+        />
+      }
       <div className="bg-brown">
+        <div className="spacer"></div>
         <div className="spacer"></div>
         <div className="spacer"></div>
         {
@@ -289,15 +299,12 @@ function Home() {
             class_text_1="p fw-light mt-4 mb-3 text-light"
             class_text_2="p fw-light mt-4 mb-3 text-light"
             class_text_3="p fw-light mt-4 mb-3 text-light hidden"
-            header_1="Australia & Asia on The Map"
+            header_1=""
             header_2=""
             header_3=""
-            text_1="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                         Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem."
-            text_2="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-						Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem."
-            text_3="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-						Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem."
+            text_1=""
+            text_2=""
+            text_3=""
           />
         }
         <div className="spacer"></div>
@@ -317,7 +324,12 @@ function Home() {
         <div className="spacer"></div>
         <div className="spacer"></div>
       </div>
-      {<BorderPattern img_src="border-pattern.jpg" alt_src="" />}
+      {
+        <BorderPattern
+          img_src="border-pattern.jpg"
+          alt_src=""
+        />
+      }
 
       <div className="bg-light ">
         {
@@ -425,7 +437,12 @@ function Home() {
           />
         }
       </div>
-      {<BorderPattern img_src="border-pattern.jpg" alt_src="" />}
+      {
+        <BorderPattern
+          img_src="border-pattern.jpg"
+          alt_src=""
+        />
+      }
     </>
   );
 }
