@@ -6,8 +6,8 @@ import {
   Cards,
   ContactCall,
   BorderPattern,
-  Slider,
-  ImageLeft,
+  Slider
+
 } from "../components/rows";
 
 function Home() {

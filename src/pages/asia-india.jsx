@@ -3,7 +3,6 @@ import {
   HeaderImage,
   Paragraph,
   ImgBlockRows,
-  ImageLeft,
   Cards,
   ContactCall,
   BorderPattern,
@@ -59,7 +58,7 @@ function Home() {
 
         {
           <Slider
-            classContainer="container mb-4 "
+            classContainer="container mb-5 "
             class_row="row w-50 mx-auto p-4"
             class_col="col"
             class_title_1="h1"
@@ -112,100 +111,34 @@ function Home() {
             image_8="images/asiaindia-ashok-j-kshetri.jpg"
           ></Slider>
         }
-        {
-          <Paragraph
-            //////container
-            class_Container="container  pt-5 "
-            class_Container_Title="row text-center mt-0 mx-auto "
-            //////Title
-
-            class_Title="h4 pt-0 text-light hidden"
-            content_Title="India and Asia Headline Goes Briefly Here" //////container
-            //////Paragraph container
-
-            class_Container_Paragraph="row text-center mt-4 w-85 px-3 mx-auto "
-            //////Paragraph 1
-
-            class_Paragraph_1="p fw-light text-light hidden"
-            content_Paragraph_1="Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna."
-            //////Paragraph 2
-
-            class_Paragraph_2="p fw-light hidden"
-            content_Paragraph_2=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
-            //////Paragraph 3
-
-            class_Paragraph_3="p fw-light hidden"
-            content_Paragraph_3=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis in!"
-          />
-        }
-        <div className="spacer"></div>
-        <div className="spacer"></div>
-        {
-          <BorderPattern
-            img_src="border-pattern.jpg"
-            alt_src=""
-          />
-        }
-      </div>
-      <div className="bg-brown ">
-        <div className="spacer"></div>
-        <div className="spacer"></div>
-        {
-          <ImageLeft
-            class_Container="container mt-0 p-0"
-            class_row="row g-0 w-75 mx-auto text-light"
-            class_col_1="col-5 ps-3"
-            class_col_2="col-7"
-            class_img="img-fluid w-100 "
-            image_1="Map_of_Asia.jpg"
-            image_1_title="this is a tooltip"
-            alt_1="Austral and Asia Map"
-            label_1="Lorem Ipsom"
-            class_header_1="h4 mt-0 mb-3"
-            class_header_2="h4 mt-4 mb-3 hidden"
-            class_header_3="h4 mt-4 mb-3 hidden"
-            class_text_1="p fw-light mt-4 mb-3 text-light"
-            class_text_2="p fw-light mt-4 mb-3 text-light"
-            class_text_3="p fw-light mt-4 mb-3 text-light"
-            header_1="India & Asia Destinations to Explore"
-            header_2=""
-            header_3=""
-            text_1="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                         Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem."
-            text_2="Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-						Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem.Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quidem voluptatum velit modi non quos soluta maxime quasi vel inventore dolorem."
-            text_3=""
-          />
-        }
-
         <div className="spacer"></div>
         <div className="spacer"></div>
         {
           <ImgBlockRows
-            class_Container="container p-0   "
-            class_row="row g-0 mx-auto w-85 "
+            class_Container="container p-0"
+            class_row="row g-0 w-75 mx-auto  "
             class_col_1="col"
             class_col_2="col"
             class_col_3="col"
-            class_col_4="col"
+            class_col_4="col hidden"
             class_col_5="col hidden"
             class_col_6="col hidden"
             class_labels="mt-4 "
             class_img="img-fluid w-100 "
             class_label="text-center fst-italic text-light"
-            image_1="sized_256x180-1.jpg"
+            image_1="300x200-image019.jpg"
             image_1_title="this is a tooltip"
             alt_1="image"
             label_1=""
-            image_2="sized_256x180-nepal_group.jpg"
+            image_2="300x200-image021.jpg"
             image_2_title="this is a tooltip"
             alt_2="image"
             label_2=""
-            image_3="sized_256x180-14.jpg"
+            image_3="300x200-image023.jpg"
             image_3_title="this is a tooltip"
             alt_3="image"
             label_3=""
-            image_4="sized_256x180-4.jpg"
+            image_4="sized_180-DSC01669_fs.jpg"
             image_4_title="this is a tooltip"
             alt_4="image"
             label_4=""
@@ -219,6 +152,129 @@ function Home() {
             label_6=""
           />
         }
+        <div className="spacer"></div>
+        <div className="spacer"></div>
+        {
+          <ImgBlockRows
+            class_Container="container p-0"
+            class_row="row g-0 w-75 mx-auto "
+            class_col_1="col"
+            class_col_2="col"
+            class_col_3="col"
+            class_col_4="col hidden"
+            class_col_5="col hidden"
+            class_col_6="col hidden"
+            class_labels="mt-4 "
+            class_img="img-fluid w-100 "
+            class_label="text-center fst-italic text-light"
+            image_1="300x383-bhu_boy.jpg"
+            image_1_title="this is a tooltip"
+            alt_1="image"
+            label_1=""
+            image_2="300x383-nepal.jpg"
+            image_2_title="this is a tooltip"
+            alt_2="image"
+            label_2=""
+            image_3="300x383-bhu_dancer.jpg"
+            image_3_title="this is a tooltip"
+            alt_3="image"
+            label_3=""
+            image_4="sized_180-DSC01669_fs.jpg"
+            image_4_title="this is a tooltip"
+            alt_4="image"
+            label_4=""
+            image_5="sized_180-DSC01669_fs.jpg"
+            image_5_title="this is a tooltip"
+            alt_5="image"
+            label_5=""
+            image_6="sized_180-DSC01669_fs.jpg"
+            image_6_title="this is a tooltip"
+            alt_6="image"
+            label_6="Lorem Ipsom"
+          />
+        }
+        
+        {
+          <Paragraph
+            //////container
+            class_Container="container pt-5 "
+            class_Container_Title="row text-center mt-0 mx-auto "
+            //////Title
+
+            class_Title="h4 pt-0 text-light hidden"
+            content_Title="Professional" //////container
+            //////Paragraph container
+
+            class_Container_Paragraph="row text-center mt-4 w-85 px-3 mx-auto "
+            //////Paragraph 1
+
+            class_Paragraph_1="p fw-light text-light hidden"
+            content_Paragraph_1=""
+            //////Paragraph 2
+
+            class_Paragraph_2="p fw-light hidden"
+            content_Paragraph_2=""
+            //////Paragraph 3
+
+            class_Paragraph_3="p fw-light hidden"
+            content_Paragraph_3=""
+          />
+        }
+       
+
+        {
+          <BorderPattern
+            img_src="border-pattern.jpg"
+            alt_src=""
+          />
+        }
+      </div>
+      <div className="bg-brown ">
+        <div className="spacer"></div>
+        <div className="spacer"></div>
+        <div className="spacer"></div>
+        
+         {
+          <ImgBlockRows
+            class_Container="container p-0  mb-0"
+            class_row="row g-0 w-50
+             mx-auto"
+            class_col_1="col"
+            class_col_2="col hidden"
+            class_col_3="col hidden"
+            class_col_4="col hidden"
+            class_col_5="col hidden"
+            class_col_6="col hidden"
+            class_labels="mt-4 "
+            class_img="img-fluid w-100 "
+            class_label="text-center fst-italic text-light"
+            image_1="Map_of_Asia.jpg"
+            image_1_title="Photo credit: Petrus | Flickr Creative Commons"
+            alt_1="image"
+            label_1=""
+            image_2=""
+            image_2_title="this is a tooltip"
+            alt_2="image"
+            label_2=""
+            image_3=""
+            image_3_title="this is a tooltip"
+            alt_3="image"
+            label_3=""
+            image_4=""
+            image_4_title="this is a tooltip"
+            alt_4="image"
+            label_4=""
+            image_5=""
+            image_5_title="this is a tooltip"
+            alt_5="image"
+            label_5=""
+            image_6=""
+            image_6_title="this is a tooltip"
+            alt_6="image"
+            label_6=""
+          />
+        }
+
         <div className="spacer"></div>
         {
           <Paragraph
