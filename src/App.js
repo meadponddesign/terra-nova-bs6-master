@@ -8,7 +8,7 @@ import AsiaIndia from "./pages/asia-india";
 import AustraliaAsia from "./pages/australia-asia";
 import EcoAdventures from "./pages/eco-adventures";
 import Europe from "./pages/europe";
-import FoodAndDrink from "./pages/food-and-drink";
+import FoodAndDrink from "./pages/gastronomical-adventures";
 import LatinAmerica from "./pages/latin-america";
 import Morocco from "./pages/morocco";
 import SmallShips from "./pages/small-ships";

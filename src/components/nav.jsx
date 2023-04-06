@@ -161,7 +161,7 @@ function Nav() {
                     <a href="/endangered-culture">
                       <p> Endangered Cultures</p>
                     </a>
-                    <a href="/food-and-drink">
+                    <a href="/gastronomical-adventures">
                       <p> Gastronomical Adventures</p>
                     </a>
 
