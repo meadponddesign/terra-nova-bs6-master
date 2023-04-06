@@ -176,7 +176,6 @@ function Home() {
             alt_6="image"
             label_6=""
           />
-          
         }
         {
           <Paragraph
@@ -283,28 +282,43 @@ function Home() {
         <div className="spacer"></div>
         <div className="spacer"></div>
         {
-          <ImageLeft
-            class_Container="container mt-0 p-0"
-            class_row="row g-0 w-75 mx-auto text-light"
-            class_col_1="col-5 ps-3"
-            class_col_2="col-7"
+          <ImgBlockRows
+            class_Container="container p-0  mb-0"
+            class_row="row g-0 w-75
+             mx-auto"
+            class_col_1="col"
+            class_col_2="col hidden"
+            class_col_3="col hidden"
+            class_col_4="col hidden"
+            class_col_5="col hidden"
+            class_col_6="col hidden"
+            class_labels="mt-4 "
             class_img="img-fluid w-100 "
-            image_1="australia-map.jpg"
-            image_1_title="this is a tooltip"
-            alt_1="Austral and Asia Map"
-            label_1="Lorem Ipsom"
-            class_header_1="h4 mt-0 mb-3"
-            class_header_2="h4 mt-4 mb-3 hidden"
-            class_header_3="h4 mt-4 mb-3 hidden"
-            class_text_1="p fw-light mt-4 mb-3 text-light"
-            class_text_2="p fw-light mt-4 mb-3 text-light"
-            class_text_3="p fw-light mt-4 mb-3 text-light hidden"
-            header_1=""
-            header_2=""
-            header_3=""
-            text_1=""
-            text_2=""
-            text_3=""
+            class_label="text-center fst-italic text-light"
+            image_1="petrus_Oceania_cc-by-nc-nd-2.0.jpg"
+            image_1_title="Photo credit: Petrus | Flickr Creative Commons"
+            alt_1="image"
+            label_1=""
+            image_2=""
+            image_2_title="this is a tooltip"
+            alt_2="image"
+            label_2=""
+            image_3=""
+            image_3_title="this is a tooltip"
+            alt_3="image"
+            label_3=""
+            image_4=""
+            image_4_title="this is a tooltip"
+            alt_4="image"
+            label_4=""
+            image_5=""
+            image_5_title="this is a tooltip"
+            alt_5="image"
+            label_5=""
+            image_6=""
+            image_6_title="this is a tooltip"
+            alt_6="image"
+            label_6=""
           />
         }
         <div className="spacer"></div>

@@ -107,7 +107,7 @@ function Home() {
             class_img="img-fluid w-100 "
             class_label="text-center fst-italic text-light"
             image_1="image-parv-choudhary.jpg"
-            image_1_title="this is a tooltip"
+            image_1_title="Photo credit: "
             alt_1="image"
             label_1=""
             image_2=""
